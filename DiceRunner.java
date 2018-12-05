@@ -15,6 +15,7 @@ public class DiceRunner{
 		//Test 2
 		DiceHolder d = new DiceHolder();
 		for(int i = 0; d.addDie(new Die((int)(Math.random()*20+1)))==1; i++){
+			System.out.println(d);
 			d.addDie(new Die((int)(Math.random()*20+1)));
 			System.out.println(d);
 		}
