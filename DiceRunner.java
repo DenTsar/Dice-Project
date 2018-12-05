@@ -14,7 +14,7 @@ public class DiceRunner{
 		System.out.println("It took "+count+" number of rolls to get snake eyes.");
 		//Test 2
 		DiceHolder d = new DiceHolder();
-		for(int i = 0; d.addDie(new Die())==l; i++){
+		for(int i = 0; d.addDie(new Die())==1; i++){
 			d.addDie(new Die((int)(Math.random()*20+1)));
 			System.out.println(d);
 		}
