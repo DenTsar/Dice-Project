@@ -16,7 +16,7 @@ public class DiceRunner{
 		DiceHolder d = new DiceHolder();
 		for(int i = 0; d.addDie()===l; i++){
 			d.addDie(new Die((int)(Math.random()*20+1)));
-			System.out.println(d.get(i));
+			System.out.println(d);
 		}
 		d.shake();
 		System.out.println(d);
