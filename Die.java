@@ -5,9 +5,9 @@ public class Die{
 		number = 6;
 		value = (int)(Math.random()*value)+1;
 	}
-	public Die(int number,int value){
+	public Die(int number){
 		this.number = number;
-		this.value = value;
+		value = (int)(Math.random()*value)+1;
 	}
 	public int getValue(){
 		return value;
