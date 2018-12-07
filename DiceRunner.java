@@ -11,12 +11,12 @@ public class DiceRunner{
 			System.out.println(a);
 			System.out.println(b);
 		}
-		System.out.println("It took "+count+" number of rolls to get snake eyes.");
+		System.out.println("It took "+count+" number of rolls to get snake eyes.\b");
 		//Test 2
 		DiceHolder d = new DiceHolder();
-		for(int i = 0; d.addDie(new Die((int)(Math.random()*20+1)))==1; i++){
-			System.out.println(d);
-			d.addDie(new Die((int)(Math.random()*20+1)));
+		int e = 1;
+		for(; e==1;){
+			e = d.addDie(new Die((int)(Math.random()*20+1)));
 			System.out.println(d);
 		}
 		d.shake();
