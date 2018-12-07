@@ -11,7 +11,7 @@ public class DiceRunner{
 			System.out.println(a);
 			System.out.println(b);
 		}
-		System.out.println("It took "+count+" number of rolls to get snake eyes.\b");
+		System.out.println("It took "+count+" number of rolls to get snake eyes.\n");
 		//Test 2
 		DiceHolder d = new DiceHolder();
 		int e = 1;
